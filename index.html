@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag and Drop</title>
+    <script src="assets/js/script.js" defer></script>
+    <link rel="stylesheet" href="assets/css/input.css">
+</head>
+<body>
+    <section class="w-screen h-screen bg-blue-900 flex justify-center items-center">
+        <div id="left" class="w-[320px]  space-y-10 min-h-[400px] m-5 border-dashed border border-white p-5 ">
+            <div draggable="true" class="list cursor-pointer  border border-white flex  space-x-2 items-center p-2 text-xl text-white bg-sky-950">
+                <img src="assets/img/man.png" class="w-10" alt="" draggable="false">
+                <p draggable="false">First item</p>
+            </div>
+            <div draggable="true" class="list cursor-pointer  border border-white flex  space-x-2 items-center p-2 text-xl text-white bg-sky-950">
+                <img src="assets/img/man.png" class="w-10" alt="" draggable="false">
+                <p draggable="false">Second item</p>
+            </div>
+            <div draggable="true" class="list cursor-pointer  border border-white flex  space-x-2 items-center p-2 text-xl text-white bg-sky-950">
+                <img src="assets/img/man.png" class="w-10" alt="" draggable="false">
+                <p draggable="false">third item</p>
+            </div>
+            <div draggable="true" class="list cursor-pointer  border border-white flex  space-x-2 items-center p-2 text-xl text-white bg-sky-950">
+                <img src="assets/img/man.png" class="w-10" alt="" draggable="false">
+                <p draggable="false">fourth item</p>
+            </div>
+        </div>
+        <div id="right" class="w-[320px] space-y-10 min-h-[400px] m-5 border-dashed border border-white p-5"></div>
+    </section>
+</body>
+</html>
